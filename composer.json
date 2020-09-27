@@ -1,0 +1,24 @@
+{
+    "name": "adamtyn/lumen-artisan-storage-link",
+    "description": "移植Laravel的 `php artisan storage:link` [生成符号连接]指令到Lumen",
+    "keywords": [
+        "framework",
+        "laravel",
+        "lumen",
+        "adamtyn"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AdamTyn",
+            "email": "tynadam@foxmail.com"
+        }
+    ],
+    "require": {},
+	"autoload":{
+		"psr-4": {
+            "AdamTyn\\Lumen\\Artisan\\": "src/"
+        }
+	}
+}
